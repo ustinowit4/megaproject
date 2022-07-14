@@ -14,15 +14,36 @@
 .container {
   display: flex;
   width: 100%;
-  max-width: 1173px;
+  max-width: 1245px;
   margin: 0 auto;
   padding: 40px;
 }
 
 span {
   font-family: "Raleway", sans-serif;
+  font-style: Regular;
   font-size: 34px;
   color: aliceblue;
   position: relative;
   top: 10px;
+}
+
+.str1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: aliceblue;
+}
+
+.str2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 52px;
+  color: aliceblue;
+}
+
+.str3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: aliceblue;
 }
