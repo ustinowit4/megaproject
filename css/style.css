@@ -12,7 +12,6 @@
 }
 
 .container {
-  display: flex;
   width: 100%;
   max-width: 1245px;
   margin: 0 auto;
@@ -46,4 +45,24 @@ span {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: aliceblue;
+}
+/* .block {
+  width: 100%;
+  max-width: 1615px;
+  margin: 0 auto;
+}
+.block_row {
+  display: flex;
+  justify-content: space-between;
+  
+
+
+} */
+
+.block {
+  width: 100%;
+  max-width: 594px;
+  margin: 225px 0 0 665px;
+  text-align: center;
+  /* margin-top: 225px; */
 }
