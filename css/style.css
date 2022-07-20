@@ -5,27 +5,37 @@
   background-size: 100% 100%;
 }
 
-.logo {
+.logo_str {
   font-family: "Raleway", sans-serif;
   font-size: 34px;
   color: aliceblue;
+  margin-right: auto;
 }
 
 .container {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   width: 100%;
   max-width: 1245px;
   margin: 0 auto;
   padding: 40px;
 }
+.cart {
+  margin: 0 15px 0 40px;
+}
 
-span {
+
+/* span {
   font-family: "Raleway", sans-serif;
   font-style: Regular;
   font-size: 34px;
   color: aliceblue;
   position: relative;
   top: 10px;
-}
+} */
 
 .str1 {
   font-family: "Raleway", sans-serif;
@@ -35,34 +45,53 @@ span {
 }
 
 .str2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 52px;
   color: aliceblue;
 }
 
 .str3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: aliceblue;
 }
-/* .block {
+.block {
   width: 100%;
   max-width: 1615px;
   margin: 0 auto;
 }
+.block_str {
+  width: 100%;
+  max-width: 594px;
+  text-align: center;
+}
 .block_row {
   display: flex;
   justify-content: space-between;
-  
-
-
-} */
-
-.block {
-  width: 100%;
-  max-width: 594px;
-  margin: 225px 0 0 665px;
-  text-align: center;
-  /* margin-top: 225px; */
+  align-items: center;
+  position: relative;
+  top: 215px;
 }
+.block_item {
+  position: relative;
+  top: 45px;
+}
+
+.nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  
+}
+.nav__link {
+display: inline-block;
+vertical-align: top;
+margin: 0 10px;
+
+  color: aliceblue;
+  transition: color 0.2s li;
+}
+.nav__link:hover{
+  color: #c7b299;
+}
+
