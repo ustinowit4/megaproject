@@ -78,7 +78,8 @@
   color: aliceblue;
   transition: color 0.2s li;
 }
-.nav__link:hover {
+.nav__link:hover,
+.nav__link.active {
   color: #c7b299;
 }
 
@@ -91,4 +92,8 @@
   background: #998675;
   border-radius: 3px;
   box-shadow: 0 -3px #736357 inset;
+}
+
+a.btn:hover {
+  background: #736357;
 }
