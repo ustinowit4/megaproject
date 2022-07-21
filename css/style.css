@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  flex-wrap: wrap;
   width: 100%;
   max-width: 1245px;
   margin: 0 auto;
@@ -43,6 +43,7 @@
 
 .str3 {
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 16px;
   color: aliceblue;
 }
@@ -68,13 +69,13 @@
 
 .nav {
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 14px;
 }
 .nav__link {
   display: inline-block;
   vertical-align: top;
-  margin: 0 10px;
-
+  padding-left: 20px;
   color: aliceblue;
   transition: color 0.2s li;
 }
@@ -97,3 +98,104 @@
 a.btn:hover {
   background: #736357;
 }
+
+.content {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 80px 0;
+  background-color: #ffffff;
+}
+
+.service {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.web {
+  width: 100%;
+  max-width: 270px;
+}
+.dev {
+  width: 100%;
+  max-width: 275px;
+  padding-bottom: 0;
+}
+.customer {
+  width: 100%;
+  max-width: 270px;
+}
+
+.marketing {
+  width: 100%;
+  max-width: 270px;
+}
+.icon__service {
+  margin: 28px 0 18px 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #555555;
+}
+.icon__service.active {
+  color: #c7b299;
+}
+.text_service {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939393;
+}
+.waxom {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 200px;
+}
+.str_waxom {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #555555;
+}
+.txt_waxom {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #939393;
+  padding-top: 30px;
+}
+
+.waxom_bcg {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.waxom_bcg img {
+  position: absolute;
+}
+.browser_left {
+  top: 1697px;
+  left: 346px;
+  z-index: 1;
+}
+
+.browser_right {
+  top: 1697px;
+  left: 806px;
+  z-index: 2; 
+} 
+.browser_center {
+  top: 1615px;
+  left: 576px;
+  z-index: 3;
+} 
