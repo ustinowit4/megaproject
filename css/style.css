@@ -196,5 +196,28 @@ a.btn:hover {
 }
 
 .txt__boxes {
+  height: 150px;
+  background: linear-gradient(to right, #261e1b, #4d3326);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txt__boxes1 {
  
+  margin-right: 475px;
+}
+
+.str_txt_box1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  color: #f1f0f0;
+}
+
+.str_txt_box2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #615855;
 }
