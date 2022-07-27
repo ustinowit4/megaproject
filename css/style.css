@@ -6,14 +6,8 @@
   text-align: center;
 }
 
-.logo_str {
-  font-family: "Raleway", sans-serif;
-  font-size: 34px;
-  color: aliceblue;
-  margin-right: auto;
-}
 
-.container {
+.slider__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,44 +16,51 @@
   margin: 0 auto;
   padding: 40px;
 }
-.cart {
+.slider__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  color: aliceblue;
+  margin-right: auto;
+}
+
+.slider__img {
   margin: 0 15px 0 40px;
 }
 
-.str1 {
+.slider__title {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 36px;
   color: aliceblue;
 }
 
-.str2 {
+.slider__subtitle {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 52px;
   color: aliceblue;
 }
 
-.str3 {
+.slider__description {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: aliceblue;
 }
-.block {
+.slider__block {
   max-width: 1615px;
   margin: 260px auto 60px;
 }
-.block_str {
+.slider__text {
   max-width: 594px;
   text-align: center;
 }
-.block_row {
+.slider-block__row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.block_item {
+.slider__item {
   position: relative;
   top: 45px;
 }
@@ -81,7 +82,7 @@
   color: #c7b299;
 }
 
-.btn {
+.button {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 14px;
@@ -92,18 +93,17 @@
   box-shadow: 0 -3px #736357 inset;
 }
 
-a.btn:hover {
+a.button:hover {
   background: #736357;
 }
 
-.content {
+.services {
   max-width: 1920px;
-
   margin: 80px 0 0 0;
   background-color: #ffffff;
 }
 
-.service {
+.services__main-block {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
@@ -113,21 +113,21 @@ a.btn:hover {
   align-items: flex-end;
 }
 
-.web {
+.service__web {
   width: 100%;
   max-width: 270px;
 }
-.dev {
+.service__dev {
   width: 100%;
   max-width: 275px;
   padding-bottom: 0;
 }
-.customer {
+.service__customer {
   width: 100%;
   max-width: 270px;
 }
 
-.marketing {
+.service__marketing {
   width: 100%;
   max-width: 270px;
 }
@@ -141,27 +141,27 @@ a.btn:hover {
 .icon__service.active {
   color: #c7b299;
 }
-.text_service {
+.text__service {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   color: #939393;
 }
-.waxom {
+.service__wrapper {
   width: 100%;
   max-width: 780px;
   margin: 0 auto;
   text-align: center;
   margin-top: 200px;
 }
-.str_waxom {
+.service__title {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 30px;
   color: #555555;
 }
-.txt_waxom {
+.service__description {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -170,32 +170,32 @@ a.btn:hover {
   padding-top: 30px;
 }
 
-.waxom_bgt {
+.service__ideas {
   width: 100%;
   max-width: 1230px;
   margin: 0 auto;
 }
 
-.browser_left {
+.browser__left {
   height: 400px;
   width: 770px;
   margin: 122px 0 0 0;
 }
 
-.browser_right {
+.browser__right {
   height: 400px;
   width: 770px;
   margin-top: -400px;
   margin-left: 460px;
 }
-.browser_center {
+.browser__center {
   height: 482px;
   width: 770px;
   margin-top: -482px;
   margin-left: 230px;
 }
 
-.txt__boxes {
+.text__boxes {
   height: 150px;
   background: linear-gradient(to right, #261e1b, #4d3326);
   display: flex;
@@ -204,17 +204,17 @@ a.btn:hover {
   flex-wrap: wrap;
 }
 
-.txt__boxes1 {
+.text__boxes-wrapper {
   margin-right: 475px;
 }
 
-.str_txt_box1 {
+.text__boxes-title {
   font-family: "Raleway", sans-serif;
   font-size: 28px;
   color: #f1f0f0;
 }
 
-.str_txt_box2 {
+.text__boxes-subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -250,10 +250,10 @@ a.btn:hover {
   justify-content: center;
   margin: 40px;
 }
-.categories__projects_btn {
+.categories__projects-btn {
   padding: 10px;
 }
-.btn2 {
+.button_project-active {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -262,7 +262,7 @@ a.btn:hover {
   background: #998675;
   border-radius: 3px;
 }
-.btn3 {
+.button_project {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -284,41 +284,41 @@ a.btn:hover {
   margin: 15px;
 }
 
-.txt__project1 {
+.title__project {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: #c7b299;
   padding-left: 20px;
 }
-.txt__project1.active {
+.title__project.active {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: #ffffff;
 }
-.txt__project2 {
+.subtitle__project {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 14px;
   padding-left: 20px;
 }
-.txt__project {
+.wrapper__project {
   height: 100px;
   width: 370px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.txt__project.active {
+.wrapper__project.active {
   background: #362f2d;
 }
 
-.txt__project2.active {
+.subtitle__project.active {
   color: #c7b299;
 }
 
-.btn4 {
+.btn__project {
   text-align: center;
   margin: 67px;
 }
